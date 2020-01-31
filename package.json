@@ -1,0 +1,31 @@
+{
+  "name": "maxdanilove-rs2019q3",
+  "version": "1.0.0",
+  "description": "fancy-weather",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack --progress",
+    "babel": "./node_modules/.bin/babel fancy-weather/src --out-dir fancy-weather/lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/maxdanilove-RS2019Q3.git"
+  },
+  "author": "Maksim Danilau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/maxdanilove-RS2019Q3/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/maxdanilove-RS2019Q3#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
