@@ -12,3 +12,6 @@ This project was made during studying at The Rolling Scopes School (RS2019Q3).
 - Background image updates according to your location, season, time of day and temperature; 
 - Ability to switch temperature units (Celsius or Fahrenheit);
 - Temperature units save in local storage;
+
+
+Deployed project: https://wizardly-pasteur-830395.netlify.com/
